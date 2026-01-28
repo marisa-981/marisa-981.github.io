@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Bitcoin Trading Desk</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      background: radial-gradient(circle at top, #1a0000, #000000 70%);
+      color: #f1f5f9;
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 70px 20px;
+      text-align: center;
+      background: linear-gradient(135deg, #ff1a1a, #400000, #000);
+      box-shadow: 0 0 40px rgba(255, 0, 0, 0.5);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+      color: #ff4d4d;
+      letter-spacing: 1px;
+      text-shadow: 0 0 15px rgba(255, 77, 77, 0.8);
+    }
+
+    header p {
+      margin-top: 12px;
+      font-size: 16px;
+      color: #fecaca;
+    }
+
+    section {
+      padding: 50px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 35px;
+      color: #ff4d4d;
+      text-shadow: 0 0 10px rgba(255, 77, 77, 0.6);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: linear-gradient(180deg, #0b0000, #020000);
+      padding: 25px;
+      border-radius: 14px;
+      border: 1px solid rgba(255, 0, 0, 0.2);
+      box-shadow: 0 0 20px rgba(255, 0, 0, 0.15);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 0 35px rgba(255, 77, 77, 0.4);
+    }
+
+    .card h3 {
+      color: #ff6666;
+      margin-bottom: 12px;
+    }
+
+    .muted {
+      color: #fca5a5;
+      font-size: 14px;
+    }
+
+    .highlight {
+      color: #22c55e;
+      font-weight: bold;
+    }
+
+    .risk {
+      color: #f87171;
+      font-weight: bold;
+    }
+
+    .contact {
+      text-align: center;
+      background: linear-gradient(180deg, #0a0000, #000);
+      border-radius: 18px;
+      padding: 45px 20px;
+      box-shadow: 0 0 35px rgba(255, 0, 0, 0.3);
+    }
+
+    .contact a {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 14px 36px;
+      background: #ff2d2d;
+      color: #000;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 0 20px rgba(255, 45, 45, 0.8);
+      transition: 0.3s;
+    }
+
+    .contact a:hover {
+      background: #ff4d4d;
+      box-shadow: 0 0 35px rgba(255, 77, 77, 1);
+    }
+
+    .warning {
+      margin-top: 18px;
+      font-size: 13px;
+      color: #facc15;
+    }
+
+    footer {
+      text-align: center;
+      padding: 18px;
+      background: #020000;
+      font-size: 14px;
+      color: #fecaca;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HERO -->
+  <header>
+    <h1>Bitcoin Trading Desk</h1>
+    <p>Analisis • Strategi • Eksekusi Trading Crypto</p>
+  </header>
+
+  <!-- ABOUT -->
+  <section>
+    <h2>Tentang Layanan</h2>
+    <p style="text-align:center;">
+      Ini adalah jasa trading & analisis Bitcoin berbasis data teknikal dan
+      market behavior. Fokus kami bukan janji cuan instan,
+      tapi bantu kamu trading dengan <b>lebih terukur dan disiplin</b>.
+    </p>
+  </section>
+
+  <!-- SERVICES -->
+  <section>
+    <h2>Layanan Utama</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>📈 Analisis Teknikal</h3>
+        <p>Support–resistance, trend, breakout, dan konfirmasi entry.</p>
+      </div>
+      <div class="card">
+        <h3>🧠 Strategi Trading</h3>
+        <p>Scalping, intraday, sampai swing trading sesuai market.</p>
+      </div>
+      <div class="card">
+        <h3>📊 Risk Management</h3>
+        <p>Atur lot, stop loss, dan target biar gak overtrade.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROS & CONS -->
+  <section>
+    <h2>Keuntungan & Risiko</h2>
+    <div class="grid">
+      <div class="card">
+        <h3 class="highlight">✅ Keuntungan</h3>
+        <ul>
+          <li>Keputusan trading lebih rasional</li>
+          <li>Berbasis data & analisis teknikal</li>
+          <li>Disiplin entry & exit</li>
+          <li>Cocok buat trader pemula sampai intermediate</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3 class="risk">⚠️ Risiko</h3>
+        <ul>
+          <li>Market crypto sangat volatil</li>
+          <li>Tidak ada jaminan profit</li>
+          <li>Loss tetap bisa terjadi</li>
+          <li>Butuh kontrol emosi & konsistensi</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact">
+    <h2>Kerja Sama & Diskusi</h2>
+    <p>
+      Mau diskusi strategi, analisis market, atau kolaborasi?
+      Gas, kita ngobrol santai tapi serius.
+    </p>
+    <a href="#">Hubungi Saya</a>
+    <p class="warning">
+      ⚠️ Ini bukan penasihat keuangan. Semua keputusan trading ada di tangan kamu.
+    </p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    © 2026 • Bitcoin Trading Desk • Built for GitHub Pages
+  </footer>
+
+</body>
+</html>
